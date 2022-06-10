@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 
-const friendsRouter = require('./routes/friends.router');
-const messagesRouter = require('./routes/messages.router');
+const teamRouter = require('./routes/friends.router');
+const worklabRouter = require('./routes/messages.router');
 
 const app = express();
 
@@ -27,8 +27,8 @@ app.get('/', (req, res) => {
     caption: 'Let\'s go Work Lab!',
   });
 });
-app.use('/friends', friendsRouter);
-app.use('/messages', messagesRouter);
+app.use('/team', teamRouter);
+app.use('/worklab', worklabRouter);
 
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}...`);
