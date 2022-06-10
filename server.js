@@ -23,7 +23,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.render('index', {
-    title: 'My Friends Are VERYY Clever',
+    title: 'My Work Lab',
     caption: 'Let\'s go Work Lab!',
   });
 });

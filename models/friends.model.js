@@ -1,11 +1,11 @@
 const friends = [
   {
     id: 0,
-    name: 'Albert Einstein'
+    name: 'Sujay Kumar'
   },
   {
     id: 1,
-    name: 'Sir Isaac Newton'
+    name: 'Ram Kumar'
   }
 ];
 
